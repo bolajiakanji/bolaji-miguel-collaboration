@@ -24,6 +24,29 @@
               <input type="email" name="email" id="email" placeholder="Enter your email" required
             /></label>
           </div>
+          <div>
+          <label id="number-label" for="number"
+            >Age (optional)
+            <input
+              type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              placeholder="Enter your age"
+          /></label>
+        </div>
+        <div>
+          <p>Which option best describes your current role?</p>
+          <select id="dropdown" name="role" required>
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Full Time Learner</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
     
    
 </body>
